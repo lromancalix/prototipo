@@ -10,6 +10,9 @@ import { HomeComponent } from './pages/home/home.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { ParallaxComponent } from './components/parallax/parallax.component';
 import { PrecioComponent } from './components/precio/precio.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { AboutComponent } from './components/about/about.component';
+import { ServicesComponent } from './components/services/services.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { PrecioComponent } from './components/precio/precio.component';
     HomeComponent,
     CarouselComponent,
     ParallaxComponent,
-    PrecioComponent
+    PrecioComponent,
+    FooterComponent,
+    AboutComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
